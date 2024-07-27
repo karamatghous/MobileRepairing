@@ -46,6 +46,20 @@ document.addEventListener("DOMContentLoaded", function () {
                 box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
                 /* Add a subtle shadow for separation */
             }
+                .navigation {
+                    position: fixed;
+                  }
+
+                @media (max-width: 768px) {
+                .sticky-header {
+                    position: static;
+                }
+
+                .navigation {
+                    position: static;
+                }
+                   
+            }
         </style>
     
     </head>
@@ -82,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div><!-- Container /-->
             </div>
             <!-- Top Bar /-->
-            <div class="navigation" style="position: fixed;">
+            <div class="navigation">
                 <div class="container">
                     <div class="row">
     
@@ -97,13 +111,13 @@ document.addEventListener("DOMContentLoaded", function () {
                         <div class="col-12 col-lg-7 col-md-4 col-sm-4">
                             <div class="nav-container clearfix">
                                 <nav class="navbar navbar-expand-lg navbar-light">
-                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    <button class="navbar-toggler" style="border: 2px solid white" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                         aria-expanded="false" aria-label="Toggle navigation">
-                                        <i class="fas fa-bars"></i>
+                                        <i class="fas fa-bars" style="color: white;"></i>
                                     </button>
                                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                        <ul class="navbar-nav">
+                                        <ul class="navbar-nav" style="background: #2d2b2b;">
     
                                             <li class="nav-item dropdown">
                                                 <a class="nav-link" href="index.html" data-bs-toggle="dropdown">Home</a>
