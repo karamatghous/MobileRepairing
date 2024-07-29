@@ -2534,7 +2534,7 @@ h3 {
   font-size: 14px !important;
   background-color: #fff;
   font-weight: 600;
-  color: #35382f;
+  color: #353f;
 }
 
 .Top-product img {
@@ -3075,7 +3075,7 @@ h3 {
 }
 
 .subscribe-us ul li {
-  max-width: 82%;
+  max-width: %;
   width: fit-content;
 }
 

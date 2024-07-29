@@ -75,22 +75,15 @@ document.addEventListener("DOMContentLoaded", function () {
                         <div class="col-sm-12 col-md-12 col-lg-6">
                             <div class="left-side">
                                 <ul class="menu">
-                                    <li><i class="fas fa-map-marked-alt"></i>6th Avenue, Field NY, 54000 USA</li>
-                                    <li><i class="fas fa-envelope"></i><a href="#">broxton@support.com</a></li>
+                                    <li><i class="fas fa-map-marked-alt"></i>82 Boulevard Victor Hugo,
+                                    Nantes 44200</li>
+                                    <li><i class="fas fa-envelope"></i><a href="#">SmartPhoneCity@gmail.com</a></li>
                                 </ul>
                             </div><!-- Left Side /-->
                         </div><!-- Columns /-->
     
-                        <div class="col-sm-12 col-md-12 col-lg-6 clearfix">
-                            <div class="right-side float-end">
-                                <ul class="menu">
-                                    <li><a href="#">Media & News</a></li>
-                                    <li><a href="#">Career</a></li>
-                                    <li><a href="#">Pricing</a></li>
-                                    <li class="list-group-flush"><a href="#">Support</a></li>
-                                </ul>
-                            </div>
-                        </div><!-- Columns /-->
+                       
+                        <!-- Columns /-->
     
                     </div><!-- Row /-->
                 </div><!-- Container /-->
@@ -100,13 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="container">
                     <div class="row">
     
-                        <div class="col-12 col-lg-2 col-md-3 col-sm-4 bg-yel">
-                            <div class="logo">
-                                <a href="index.html">
-                                    <img src="assets/images/logo.png" alt="Logo">
-                                </a>
-                            </div>
-                        </div><!-- Columns /-->
+                        <!-- Columns /-->
     
                         <div class="col-12 col-lg-7 col-md-4 col-sm-4">
                             <div class="nav-container clearfix">
@@ -120,7 +107,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                         <ul class="navbar-nav" style="background: #2d2b2b;">
     
                                             <li class="nav-item dropdown">
-                                                <a class="nav-link" href="index.html" data-bs-toggle="dropdown">Home</a>
+                                                <a class="nav-link" href="index.html" data-bs-toggle="dropdown">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Home</a>
                                                 <div class="dropdown-menu">
                                                     <a class="dropdown-item" href="index.html">Home</a>
                                                 </div>
@@ -139,33 +126,10 @@ document.addEventListener("DOMContentLoaded", function () {
                                                     <a class="dropdown-item" href="fixes.html">Fixes</a>
                                                 </div>
                                             </li>
-                                            <li class="nav-item dropdown">
-                                                <a class="nav-link" href="our-team.html" data-bs-toggle="dropdown">Team</a>
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="our-team.html">Team</a>
-                                                    <!-- <a class="dropdown-item" href="single-service.html">Fixes</a> -->
-                                                </div>
-                                            </li>
-                                            <li class="nav-item dropdown">
-                                                <a class="nav-link" href="#" data-bs-toggle="dropdown">Blog</a>
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="blog.html">Blog</a>
-                                                    <a class="dropdown-item" href="single-blog.html">Single Post
-                                                        Page</a>
-                                                </div>
-                                            </li>
-                                            <li class="nav-item dropdown">
-                                                <a href="#" class="nav-link" data-bs-toggle="dropdown">Pages</a>
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="about-us.html">About Us</a>
-                                                    <a class="dropdown-item" href="testimonial.html">Testimonials</a>
-                                                    <a class="dropdown-item" href="faqs.html">FAQ's</a>
-                                                    <a class="dropdown-item" href="404-error-page.html">404 Error
-                                                        Page</a>
-                                                </div>
-                                            </li>
+                                           
+                                            
                                             <li class="nav-item">
-                                                <a class="nav-link" href="contact-us.html">Contact us</a>
+                                            <a class="nav-link" href="contact-us.html">Contact us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -177,21 +141,8 @@ document.addEventListener("DOMContentLoaded", function () {
                             <div class="nav-icons d-flex">
                                 <ul class="list-inline">
                                     <li class="list-inline-item">
-                                        <div class="dropdown">
-                                            <button class="btn dropdown-toggle" type="button" id="dropdownMenu2"
-                                                data-bs-toggle="dropdown" aria-expanded="false">
-                                                <i class="fas fa-share-alt"></i>
-                                            </button>
-                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
-                                            </ul>
-                                        </div>
-    
+                                       
                                     </li>
-                                    <li class="list-inline-item"><a href="#"><i class="fas fa-cart-plus"></i></a></li>
                                     <li class="list-inline-item"><a href="#"><i class="fas fa-mobile-alt"></i> <span>06
                                                 123 111 23</span> </a></li>
                                     </li>
