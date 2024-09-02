@@ -75,8 +75,13 @@ document.addEventListener("DOMContentLoaded", function () {
                         <div class="col-sm-12 col-md-12 col-lg-6">
                             <div class="left-side">
                                 <ul class="menu">
-                                    <li><i class="fas fa-map-marked-alt"></i>82 Boulevard Victor Hugo,
-                                    Nantes 44200</li>
+                                    <li><i class="fas fa-map-marked-alt"></i>
+                                    <a href="http://maps.google.com/?q=44200 82 Boulevard Victor Hugo,
+                                    Nantes 44200" target="_blank" rel="noopener noreferrer">
+                                    82 Boulevard Victor Hugo,
+                                    Nantes 44200
+                                    </a>
+                                    </li>
                                     <li><i class="fas fa-envelope"></i><a href="#">SmartPhoneCity@gmail.com</a></li>
                                 </ul>
                             </div><!-- Left Side /-->
@@ -143,7 +148,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                     <li class="list-inline-item">
                                        
                                     </li>
-                                    <li class="list-inline-item"><a href="#"><i class="fas fa-mobile-alt"></i> <span>06
+                                    <li class="list-inline-item"><a href="#"><i class="fas fa-mobile-alt" style="font-size: 25px"></i> <span style="font-size: 25px">06
                                                 123 111 23</span> </a></li>
                                     </li>
                                 </ul>
