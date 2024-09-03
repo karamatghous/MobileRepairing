@@ -95,7 +95,9 @@ document.addEventListener("DOMContentLoaded", function () {
             </div>
             <!-- Top Bar /-->
             <div class="navigation">
-                <div class="container">
+                <div class="container" style="
+    border-radius: 16px;
+">
                     <div class="row">
     
                         <!-- Columns /-->
@@ -109,7 +111,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                         <i class="fas fa-bars" style="color: white;"></i>
                                     </button>
                                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                        <ul class="navbar-nav" style="background: #2d2b2b;">
+                                        <ul class="navbar-nav rounded" style="background: #2d2b2b">
     
                                             <li class="nav-item dropdown">
                                                 <a class="nav-link" href="index.html" data-bs-toggle="dropdown">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Home</a>
@@ -142,13 +144,13 @@ document.addEventListener("DOMContentLoaded", function () {
                                 </nav>
                             </div>
                         </div><!-- Columns /-->
-                        <div class="col-12 col-lg-3 col-md-5 col-sm-4 bg-yel">
+                        <div class="col-12 col-lg-3 col-md-5 col-sm-4 bg-yel rounded">
                             <div class="nav-icons d-flex">
                                 <ul class="list-inline">
                                     <li class="list-inline-item">
                                        
                                     </li>
-                                    <li class="list-inline-item"><a href="#"><i class="fas fa-mobile-alt" style="font-size: 25px"></i> <span style="font-size: 25px">06
+                                    <li class="list-inline-item"><a href="#"><i class="fas fa-mobile-alt" style="font-size: 25px;"></i> <span style="font-size: 25px;">06
                                                 123 111 23</span> </a></li>
                                     </li>
                                 </ul>
