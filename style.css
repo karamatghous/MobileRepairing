@@ -10,12 +10,11 @@
 	- Main CSS file is inside assets/css/theme-style.css
 -------------------------------------------------------------------*/
 
-@import 'assets/css/animate.css';	   		   /* Including Animations CSS file */
-@import 'assets/css/bootstrap.min.css';       /* Including bootstrap CSS File */
-@import 'assets/css/theme-styles.css';		   /* Main Theme CSS File */
-@import 'assets/css/responsive-styles.css';	   /* Main Theme CSS File */
-@import 'assets/css/all.min.css';	   			/* Including Font Awesome Icons */
-
+@import "assets/css/animate.css"; /* Including Animations CSS file */
+@import "assets/css/bootstrap.min.css"; /* Including bootstrap CSS File */
+@import "assets/css/theme-styles.css"; /* Main Theme CSS File */
+@import "assets/css/responsive-styles.css"; /* Main Theme CSS File */
+@import "assets/css/all.min.css"; /* Including Font Awesome Icons */
 
 /**
  * Import Website Main Fonts 
@@ -25,7 +24,7 @@
  * Font Families
  *
  */
- @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap");
 /*=========================================
 	Below This Line You Can add Your CSS
 	Please Do not Edit Files above if you 
