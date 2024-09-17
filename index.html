@@ -39,8 +39,18 @@
           data-bs-ride="carousel"
           data-bs-interval="2000"
           id="main_banner"
+          style="height: 500px"
+          <!--
+          Add
+          appropriate
+          height
+          for
+          the
+          carousel
+          --
         >
-          <div class="main-banner carousel-inner">
+          >
+          <div class="main-banner carousel-inner" style="height: 100%">
             <ol class="carousel-indicators">
               <li
                 data-bs-target="#main_banner"
@@ -48,34 +58,38 @@
                 class="active"
               ></li>
               <li data-bs-target="#main_banner" data-bs-slide-to="1"></li>
+              <li data-bs-target="#main_banner" data-bs-slide-to="2"></li>
             </ol>
-            <div class="slide carousel-item active pb-4">
-              <div class="banner-text-one">
-                <div class="slide-text">
-                  <div class="container">
-                    <h3>Welcome To SmartPhoneCity Repairing Service</h3>
-                    <h2 class="rfs-5">
-                      <span>Need Any Mobile</span> Repairing?
-                    </h2>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Slide /-->
-            <div class="slide carousel-item pb-4">
-              <div class="banner-text-two">
-                <div class="slide-text">
-                  <div class="container">
-                    <h3>Welcome To SmartPhoneCity Repairing Service</h3>
-                    <h2 class="rfs-5">
-                      <span>Need Any Computer</span> Repairing?
-                    </h2>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Slide /-->
 
+            <!-- Slide 1 -->
+            <div class="slide carousel-item active">
+              <img
+                src="assets/images/101.png"
+                class="d-block w-100"
+                alt="Banner 1"
+                style="height: 100%; object-fit: cover"
+              />
+            </div>
+            <!-- Slide 2 -->
+            <div class="slide carousel-item">
+              <img
+                src="assets/images/104.png"
+                class="d-block w-100"
+                alt="Banner 2"
+                style="height: 100%; object-fit: cover"
+              />
+            </div>
+            <!-- Slide 3 -->
+            <div class="slide carousel-item">
+              <img
+                src="assets/images/105.png"
+                class="d-block w-100"
+                alt="Banner 3"
+                style="height: 100%; object-fit: cover"
+              />
+            </div>
+
+            <!-- Controls -->
             <a
               class="carousel-control-prev"
               href="#main_banner"
@@ -101,14 +115,12 @@
               <span class="visually-hidden">Next</span>
             </a>
           </div>
-          <!-- Main Banner /-->
         </div>
       </div>
 
-      <!------------ Banner Container /------------->
-
       <!------------ Icon Services Start /----------->
-      <div class="icon-services-bg">
+      <div class="icon-services-bg" style="margin-top: 100px">
+        <!-- Add margin to separate from carousel -->
         <div class="icon-services">
           <div class="container">
             <div class="row">
@@ -129,7 +141,7 @@
                   <div class="icon-line2"></div>
                   <h3>1</h3>
                   <div class="icon-line"></div>
-                  <h2><a href="#"> Mobile Repair</a></h2>
+                  <h2><a href="#">Mobile Repair</a></h2>
                   <p></p>
                   <hr />
                 </div>
@@ -154,7 +166,7 @@
                   <div class="icon-line2"></div>
                   <h3>2</h3>
                   <div class="icon-line"></div>
-                  <h2><a href="#"> Tablet Repair</a></h2>
+                  <h2><a href="#">Tablet Repair</a></h2>
                   <p></p>
                   <hr />
                 </div>
@@ -179,7 +191,7 @@
                   <div class="icon-line2"></div>
                   <h3>3</h3>
                   <div class="icon-line"></div>
-                  <h2><a href="#"> Laptop Repair</a></h2>
+                  <h2><a href="#">Laptop Repair</a></h2>
                   <p></p>
                   <hr />
                 </div>
@@ -204,7 +216,7 @@
                   <div class="icon-line2"></div>
                   <h3>4</h3>
                   <div class="icon-line"></div>
-                  <h2><a href="#"> Console Repair</a></h2>
+                  <h2><a href="#">Console Repair</a></h2>
                   <p></p>
                   <hr />
                 </div>
@@ -217,6 +229,7 @@
           <!-- container -->
         </div>
       </div>
+
       <!------------ Icon Services End /------------>
 
       <!------------- Banner Info Box /------------>
