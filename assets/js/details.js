@@ -114,8 +114,17 @@ const createList = (key, val) => {
   a.setAttribute("href", "#");
   span.innerHTML = `$${val}`;
   span.setAttribute("class", "list_style");
+  span.style.display = "inline-flex";
+  span.style.justifyContent = "center";
+  span.style.alignItems = "center";
+  span.style.minWidth = "30px";
+  span.style.minHeight = "30px";
+  span.style.borderRadius = "50%";
+
   a.appendChild(span);
   li.appendChild(a);
+
+  li.style.paddingBottom = "10px";
   return li;
 };
 
