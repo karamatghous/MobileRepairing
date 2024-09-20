@@ -135,7 +135,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                     <a class="nav-link" href="about-us.html">About Us</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link" href="fixes.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fixes</a>
+                                                    <a class="nav-link" href="fixes.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fixes</a>
                                                 </li>
                                                 <li class="nav-item">
                                                     <a class="nav-link" href="contact-us.html">Contact us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
