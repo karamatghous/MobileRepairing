@@ -80,12 +80,30 @@ document.addEventListener("DOMContentLoaded", function () {
                     width: 150px; /* Adjust the logo size */
                     height: auto;
                 }
+                     #google_translate_element {
+                  position: absolute;
+                  top: 10px;
+                  right: 10px;
+                  z-index: 1001;
+                  background-color: yellow;
+                  padding: 5px;
+                  border-radius: 5px;
+              }
+              .goog-te-combo {
+                  background-color: yellow;
+                  border: none;
+                  padding: 5px;
+                  font-size: 16px;
+              }
+                    
             </style>
         
         </head>
         
         <body class="loaded enable-rfs">
+        <div id="google_translate_element"></div>
             <!----------- Header Area Starts Here ------------>
+         
             <div class="header sticky-header">
                 <div id="top-line"></div>
                 <div class="top-bar">
@@ -163,6 +181,7 @@ document.addEventListener("DOMContentLoaded", function () {
             </div>
             <!------------- Header End /------------->
         
+    
         </body>
         
         </html>

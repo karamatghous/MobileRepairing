@@ -384,5 +384,32 @@
     <!-- Include your JavaScript file -->
     <script src="assets/js/data.js"></script>
     <script src="assets/js/phones.js"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement(
+            { pageLanguage: "en" },
+            "google_translate_element"
+          );
+        }
+      </script>
+  
+      <script
+        type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+      ></script>
+      <script>
+        function hideGoogleTranslateHeader() {
+          const translateHeader = document.querySelector(".goog-te-banner-frame");
+          if (translateHeader) {
+            translateHeader.style.display = "none";
+          }
+        }
+  
+        // Load the function after the page is fully loaded
+        window.addEventListener("load", () => {
+          // Run after some delay to ensure the element has been rendered
+          setTimeout(hideGoogleTranslateHeader, 1000);
+        });
+      </script>
 </body>
 </html>
