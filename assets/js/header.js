@@ -85,12 +85,12 @@ document.addEventListener("DOMContentLoaded", function () {
                   top: 10px;
                   right: 10px;
                   z-index: 1001;
-                  background-color: yellow;
+                  background-color: #f2b705;
                   padding: 5px;
                   border-radius: 5px;
               }
               .goog-te-combo {
-                  background-color: yellow;
+                  background-color: #f2b705;
                   border: none;
                   padding: 5px;
                   font-size: 16px;
