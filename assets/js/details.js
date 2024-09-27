@@ -120,6 +120,7 @@ const createList = (key, val) => {
   span.style.minWidth = "30px";
   span.style.minHeight = "30px";
   span.style.borderRadius = "50%";
+  span.style.color = "black";
 
   a.appendChild(span);
   li.appendChild(a);
