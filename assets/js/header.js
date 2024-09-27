@@ -123,7 +123,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                 82 Boulevard Victor Hugo, Nantes 44200
                                             </a>
                                         </li>
-                                        <li><i class="fas fa-envelope"></i><a href="#">SmartPhoneCity@gmail.com</a></li>
+                                        <li><i class="fas fa-envelope"></i><a href="#">smartphonecity.nantes@gmail.com</a></li>
                                     </ul>
                                 </div><!-- Left Side /-->
                             </div><!-- Columns /-->
@@ -153,7 +153,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                     <a class="nav-link" href="about-us.html">About Us</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link" href="fixes.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fixes</a>
+                                                    <a class="nav-link" href="fixes.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Repair</a>
                                                 </li>
                                                 <li class="nav-item">
                                                     <a class="nav-link" href="contact-us.html">Contact us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
@@ -168,8 +168,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                     <ul class="list-inline">
                                         <li class="list-inline-item">
                                         </li>
-                                        <li class="list-inline-item"><a href="#"><i class="fas fa-mobile-alt" style="font-size: 25px;"></i> <span style="font-size: 25px;">06
-                                                    123 111 23</span> </a></li>
+                                        <li class="list-inline-item"><a href="#"><i class="fas fa-mobile-alt" style="font-size: 25px;"></i> <span style="font-size: 25px;">
+                                        0253975039</span> </a></li>
                                         </li>
                                     </ul>
                                 </div>
