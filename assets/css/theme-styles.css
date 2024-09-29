@@ -888,18 +888,16 @@ ul.menu {
   position: relative;
   z-index: 11;
   max-height: 740px;
-  margin-top: 70px;
+  margin-top: 120px;
 }
 @media (max-width: 768px) {
   .banner-info-box {
-    margin-top: 0px
-
+    margin-top: 0px;
   }
 }
-@media only screen and (max-width: 1500px) and (min-width: 1024px){
+@media only screen and (max-width: 1500px) and (min-width: 1024px) {
   .banner-info-box {
-    margin-top: 0px
-
+    margin-top: 130px;
   }
 }
 
@@ -1019,23 +1017,21 @@ ul.menu {
     inset 0px 200px 0px #ffffff;
   padding-block-end: min(7rem, 9%);
   background-color: #000000;
-margin-top: 430px
+  margin-top: 90px;
 }
 @media (max-width: 768px) {
   .icon-services-bg {
-    margin-top: 40px
-
+    margin-top: 40px;
   }
 }
-@media only screen and (max-width: 1500px) and (min-width: 1024px){
+@media only screen and (max-width: 1500px) and (min-width: 1024px) {
   .icon-services-bg {
-    margin-top: 40px
-
+    margin-top: 70px;
   }
 }
 
 .icon-services {
-margin-top: -90px;
+  margin-top: -90px;
   z-index: 999;
   position: relative;
 }
