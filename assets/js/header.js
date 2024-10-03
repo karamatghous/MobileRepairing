@@ -111,23 +111,28 @@ document.addEventListener("DOMContentLoaded", function () {
                         <div class="row">
                             <!-- Logo on Left Side -->
                             <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center">
-                                <div class="logo">
-                                    <a href="index.html">
-                                        <img src="assets/images/smartlogo.png" alt="Smart City Logo" />
-                                    </a>
-                                </div>
-                                <div class="left-side">
-                                    <ul class="menu">
-                                        <li><i class="fas fa-map-marked-alt"></i>
-                                            <a href="http://maps.google.com/?q=44200 82 Boulevard Victor Hugo, Nantes 44200" target="_blank" rel="noopener noreferrer">
-                                                82 Boulevard Victor Hugo, Nantes 44200
-                                            </a>
-                                        </li>
-                                        <li><i class="fas fa-envelope"></i><a href="#">smartphonecity.nantes@gmail.com</a></li>
-                                    </ul>
-                                </div><!-- Left Side /-->
-                            </div><!-- Columns /-->
-        
+    <div class="logo">
+        <a href="index.html">
+            <img src="assets/images/smartlogo.png" alt="Smart City Logo" style="margin-top: 20px;" />
+        </a>
+        <!-- Add SmartPhoneCity text below the logo -->
+        <h2 style="margin-top: 5px; text-align: center; font-size: 24px;">
+            Smart<span style="color: #ffc107;">Phone</span>City
+        </h2>
+    </div>
+
+    <div class="left-side" style="margin-left: 20px;">
+        <ul class="menu">
+            <li><i class="fas fa-map-marked-alt"></i>
+                <a href="http://maps.google.com/?q=44200 82 Boulevard Victor Hugo, Nantes 44200" target="_blank" rel="noopener noreferrer">
+                    82 Boulevard Victor Hugo, Nantes 44200
+                </a>
+            </li>
+            <li><i class="fas fa-envelope"></i><a href="#">smartphonecity.nantes@gmail.com</a></li>
+        </ul>
+    </div><!-- Left Side /-->
+</div><!-- Columns /-->
+
                         </div><!-- Row /-->
                     </div><!-- Container /-->
                 </div>
