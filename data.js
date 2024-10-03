@@ -34,6 +34,23 @@ const phones = {
         "iCloud Backup Plan": 6,
       },
     },
+    "IPHONE 15 PLUS": {
+      img: "assets/iphone/",
+      Screen: 10,
+      Battery: 13,
+      "Rear Camera": 13,
+      Earphone: 15,
+      "Loud speeaker": 16,
+      "Porthole Camera": 12,
+      "Other breakdowns": 15,
+      Services: {
+        "Data Backup/Transfer": 12.99,
+        "Device Settings": 10,
+        "Locate Phone": 8,
+        "Data Wipe Restore": 5,
+        "iCloud Backup Plan": 6,
+      },
+    },
     "IPHONE 15": {
       img: "assets/iphone/",
       Screen: 10,
