@@ -112,7 +112,7 @@ const createList = (key, val) => {
   const span = document.createElement("span");
   a.innerHTML = key;
   a.setAttribute("href", "#");
-  span.innerHTML = `$${val}`;
+  span.innerHTML = `€${val}`;
   span.setAttribute("class", "list_style");
   span.style.display = "inline-flex";
   span.style.justifyContent = "center";
